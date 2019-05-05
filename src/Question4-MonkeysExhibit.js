@@ -4,9 +4,13 @@
  * Convert the MonkeysExhibit component below to a class component.
  */
 
-import React from "react";
+import React {Component}from "react";
 
-function MonkeysExhibit(props) {
+class MonkeyExhibit extends React.Component {
+  constructor(props) {
+    super(props);
+
+render ()
   return (
     <section className="monkeys">
       <h2>Latin name: {props.latinName}</h2>
